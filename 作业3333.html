@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+     var c=0;
+     var 
+     Var flag=o
+     function setflag(){
+         if (flag==0){
+             flag=1;
+             timedCount(flag);
+         }else{
+             flag=0;
+             timedCount(flag}
+     }
+    }
+    function timedCount(flag){
+        if(flag==1){
+            document.getElementById("txt").value=c
+            c=c+1
+            t=setTimeout("timedCount(flag)”，1000)
+        }else{
+            c-=1;
+            setTimeout（document.getElementById('txt').value=c",0)
+            clearTimeout(t);
+        
+            }
+        }        
+</csript> 
+</head>
+
+<body>
+    <form>
+    <input type="button"  value="Timing start/pause" onClick="setflag()">
+    <ibput type="type"    id="txt"  value="0">
+     </form>
+
+
+</html>
